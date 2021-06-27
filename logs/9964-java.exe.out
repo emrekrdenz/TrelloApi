@@ -1,0 +1,20 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 827milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 827"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 54076"}
+{"logLevel":"info","message":"Listening on port:54076"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.createBoard' and 'StepImplementation.createBoard'"}
+{"logLevel":"debug","message":"Found deneme in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tdeneme : public void createBoard()"}
+{"logLevel":"debug","message":"Executing 'deneme' using 'class StepImplementation.createBoard"}
+Haz 27, 2021 3:57:52 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: dsc=f1cfbd29ef7370911ca783fde718aa9e088df21c7483dc86e362be4af9f2a230; Path=/; Expires=Wed, 30 Jun 2021 00:57:52 GMT; Secure". Invalid 'expires' attribute: Wed, 30 Jun 2021 00:57:52 GMT
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

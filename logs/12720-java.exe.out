@@ -1,0 +1,21 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 820milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 820"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 63687"}
+{"logLevel":"info","message":"Listening on port:63687"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.createBoard' and 'StepImplementation.createBoard'"}
+{"logLevel":"debug","message":"Found Board Olustur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.createCard' and 'StepImplementation.createCard'"}
+{"logLevel":"debug","message":"Found Card Ekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tBoard Olustur : public void createBoard()"}
+{"logLevel":"debug","message":"\tCard Ekle : public void createCard()"}
+{"logLevel":"debug","message":"Executing 'Card Ekle' using 'class StepImplementation.createCard"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

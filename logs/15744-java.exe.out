@@ -1,0 +1,33 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 928milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 928"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64619"}
+{"logLevel":"info","message":"Listening on port:64619"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.createList' and 'StepImplementation.createList'"}
+{"logLevel":"debug","message":"Found Liste olustur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.createBoard' and 'StepImplementation.createBoard'"}
+{"logLevel":"debug","message":"Found Board Olustur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.createCard' and 'StepImplementation.createCard'"}
+{"logLevel":"debug","message":"Found {}Card Ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.deleteBoard' and 'StepImplementation.deleteBoard'"}
+{"logLevel":"debug","message":"Found board sil in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tBoard Olustur : public void createBoard()"}
+{"logLevel":"debug","message":"\t{}Card Ekle : public void createCard(String name)"}
+{"logLevel":"debug","message":"\tboard sil : public void deleteBoard()"}
+{"logLevel":"debug","message":"\tListe olustur : public void createList()"}
+{"logLevel":"debug","message":"Executing 'Board Olustur' using 'class StepImplementation.createBoard"}
+ID:60d8062671292f8ea00a4aca
+{"logLevel":"debug","message":"Executing 'Liste olustur' using 'class StepImplementation.createList"}
+{"logLevel":"debug","message":"Executing '{}Card Ekle' using 'class StepImplementation.createCard"}
+{"logLevel":"debug","message":"Executing '{}Card Ekle' using 'class StepImplementation.createCard"}
+{"logLevel":"debug","message":"Executing 'board sil' using 'class StepImplementation.deleteBoard"}
+burada id 60d8062671292f8ea00a4aca
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

@@ -1,0 +1,23 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 759milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 759"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57123"}
+{"logLevel":"info","message":"Listening on port:57123"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.createBoard' and 'StepImplementation.createBoard'"}
+{"logLevel":"debug","message":"Found Board Olustur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.createCard' and 'StepImplementation.createCard'"}
+{"logLevel":"debug","message":"Found Card Ekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tBoard Olustur : public void createBoard()"}
+{"logLevel":"debug","message":"\tCard Ekle : public void createCard()"}
+{"logLevel":"debug","message":"Executing 'Board Olustur' using 'class StepImplementation.createBoard"}
+sout{"id":"60d7d93074d53e48d0f8ed2a","name":"İlk Board","desc":"","descData":null,"closed":false,"idOrganization":"60d7c2dc779df43ca0e90431","idEnterprise":null,"pinned":false,"url":"https://trello.com/b/bVOl6IJp/i%CC%87lk-board","shortUrl":"https://trello.com/b/bVOl6IJp","prefs":{"permissionLevel":"private","hideVotes":false,"voting":"disabled","comments":"members","invitations":"members","selfJoin":true,"cardCovers":true,"isTemplate":false,"cardAging":"regular","calendarFeedEnabled":false,"background":"blue","backgroundImage":null,"backgroundImageScaled":null,"backgroundTile":false,"backgroundBrightness":"dark","backgroundColor":"#0079BF","backgroundBottomColor":"#0079BF","backgroundTopColor":"#0079BF","canBePublic":true,"canBeEnterprise":true,"canBeOrg":true,"canBePrivate":true,"canInvite":true},"labelNames":{"green":"","yellow":"","orange":"","red":"","purple":"","blue":"","sky":"","lime":"","pink":"","black":""},"limits":{}}
+{"logLevel":"debug","message":"Executing 'Card Ekle' using 'class StepImplementation.createCard"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
